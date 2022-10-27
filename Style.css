@@ -1,0 +1,144 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/computer-screens-running-programming-code-empty-software-developing-agency-office-computers-parsing-data-algorithms-background-neural-network-servers-cloud-computing-data-room_482257-33353.jpg?w=900&t=st=1666178151~exp=1666178751~hmac=200aaf8980ff70eb914cdcd584cd0dc72bf8236e45dfe5398e6775c6c435efa2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.pertama {
+    width:65%;
+    height:auto;
+    background-color: white;
+    margin:auto;
+    margin-top:5px;
+    padding-bottom:5px;
+}
+
+nav ul{
+    
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: green;
+    
+}
+
+nav li{
+    float: left;
+}
+
+
+nav li a{
+    display: inline-block;
+    color:whitesmoke;
+    text-align:center;
+    text-decoration:none;
+    padding:14px 15px;
+}
+nav li a:hover{
+    opacity:0.9;
+    background-color: red;
+}
+
+
+article .isi {
+    width: 98.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+    float: left;
+}
+
+article .isi h1{
+    text-align: left;
+    margin-left:20px;
+}
+
+article .isi h2{
+    text-align: left;
+    margin-left:20px;
+}
+
+article .isi p {
+    text-align: left;
+}
+
+article .isi img {
+    width:100%;
+    height: 400px;
+    margin: 5px 5px 5px 5px;
+}
+
+article .mini {
+    width: 30%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+    float: left;
+}
+
+article .mini img {
+    width: 98%;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+
+}
+
+article .konten {
+    display: flex;
+    width: 98.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+article p {
+    padding: 5px 5px 5px 5px;  
+    margin-left: 5px;
+}
+
+article .konten img {
+    width: 90%;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+
+}
+
+article .konten:hover {
+    opacity:1;
+    background-color: blue;
+    
+}
+
+article .konten .judul a {
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    color:black;
+}
+
+article .konten a:hover {
+    opacity:0.9;
+}
+
+article h1 {
+    margin-left: 10px;
+}
+
+footer {
+    clear:both;
+    width:98.8%;
+    height:auto;
+    text-align:center;
+    margin:5px 5px 5px 5px;
+    border-radius:3px;
+    border-bottom:2px solid black;
+    padding-top:15px;
+    padding-bottom:15px;   
+}
